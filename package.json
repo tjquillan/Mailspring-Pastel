@@ -1,0 +1,12 @@
+{
+  "name": "ui-pastel",
+  "title": "Pastel",
+  "displayName": "Pastel",
+  "theme": "ui",
+  "version": "1.0.0",
+  "description": "A clean theme for Mailspring based on Arc Dark.",
+  "license": "MIT",
+  "engines": {
+    "mailspring": "*"
+  }
+}
