@@ -218,18 +218,16 @@ iframe {
 
 .ignore-in-parent-frame {
 	body {
-		color: @arc-text;
+		filter: invert(100%) hue-rotate(180deg);
+		color: @arc-dark;
 		overflow: hidden !important;
 	}
 	img {
+		filter: invert(100%) hue-rotate(180deg);
 		color: @arc-dark;
 	}
 	blockquote {
 		border-color: lighten(@arc-dark, 20%) !important;
-	}
-	a {
-		transition: all .15s ease-in-out;
-		background: none !important;
 	}
 	.link-tracking-dot {
 		display: none;
