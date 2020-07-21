@@ -5,17 +5,18 @@
 }
 
 .list-item.list-tabular-item {
+	.snooze-button {
+		background: url('../static/images/thread-list-quick-actions/ic-quickaction-snooze@2x.png') center no-repeat, lighten(@arc-dark, 25%) !important;
+	}
+	.action-trash {
+		background: url('../static/images/thread-list-quick-actions/ic-quick-button-trash@2x.png') center no-repeat, lighten(@arc-dark, 25%) !important;
+	}
+	.action-archive {
+		background: url('../static/images/thread-list-quick-actions/ic-quick-button-archive@2x.png') center no-repeat, lighten(@arc-dark, 25%)!important;
+	}
 	.btn.action {
 		box-shadow: none !important;
 		border: none !important;
-		-webkit-filter: invert(100%) brightness(300%) !important;
-		filter: invert(100%) brightness(300%) !important;
-	}
-	&.focused {
-		.btn.action {
-			-webkit-filter: invert(100%) brightness(300%) !important;
-			filter: invert(100%) brightness(300%) !important;
-		}
 	}
 	&.keyboard-cursor {
 		border-left: 4px solid @arc-accent;

@@ -3,10 +3,25 @@
   "title": "Pastel",
   "displayName": "Pastel",
   "theme": "ui",
+  "main": "./lib/main",
   "version": "1.0.0",
   "description": "A clean theme for Mailspring based on Arc Dark.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "engines": {
-    "mailspring": "*"
+    "mailspring": ">=1.6.3"
+  },
+  "windowTypes": {
+    "default": true
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.5"
   }
 }
